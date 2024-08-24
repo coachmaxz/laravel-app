@@ -1,18 +1,18 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-vue": "^5.0.4",
-        "axios": "^1.6.8",
-        "laravel-vite-plugin": "^1.0.2",
-        "lodash": "^4.17.21",
-        "vite": "^5.2.6",
-        "vue": "^3.4.21",
-        "vue-loader": "^17.4.2"
-    }
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "axios": "^1.7.5",
+    "laravel-vite-plugin": "^1.0.5",
+    "lodash": "^4.17.21",
+    "vite": "^5.4.2",
+    "vue": "^3.4.38",
+    "vue-loader": "^17.4.2"
+  }
 }
